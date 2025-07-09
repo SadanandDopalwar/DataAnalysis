@@ -1,0 +1,7 @@
+pymongo
+pandas
+matplotlib
+pytz
+psutil
+fastapi
+uvicorn

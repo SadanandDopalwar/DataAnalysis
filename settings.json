@@ -1,0 +1,35 @@
+{
+    "DatabaseSettings": {
+        "ConnectionString": "mongodb://localhost:27017"
+    },
+    "DataRetensionSettings": {
+        "IsDataRetension": false,
+        "Interval": 600,
+        "ImageData": 30,
+        "ImageFolder": "/home/nidoftp1/"
+    },
+    "DiskSpaceSettings": {
+        "IsCheckDiskSpace": false,
+        "DiskPath": "/",
+        "DiskCheckCutoff": 60,
+        "IsSendMail": false,
+        "MailRecipients": "",
+        "Interval": 21600
+    },
+    "ReportsSettings": {
+        "IsSendReports": true,
+        "LastHours": 24,
+        "TargetHour": 16,
+        "TargetMinute": 2,
+        "IsPrimary": true,
+        "IsSecondary": true,
+        "IsCalibration": true,
+        "IsAlarm": true,
+        "IsUploader": true,
+        "IsTimeRange": false,
+        "start_time_ist": "",
+        "end_time_ist": ""
+    },
+    "log_file_path": "/srv/nidoworkz/nidologs/checker.log",
+    "notificationport": 5005
+}
